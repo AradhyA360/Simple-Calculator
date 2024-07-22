@@ -1,16 +1,21 @@
 body {
-  background-color: #9162ed;
+  background-color: #55e2d6;
 }
 
 .card {
   width: 290px;
-  height: 394px;
+  height: 450px;
   margin: 0 auto;
   background-color: #2aebbb;
   border-radius: 8px;
   z-index: 1;
-  margin-top: 80px;
+  margin-top: 70px;
   box-shadow: black 10px 10px 30px;
+}
+
+h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1px;
 }
 
 .tools {
@@ -28,7 +33,7 @@ body {
   align-items: center;
   width: 10px;
   height: 10px;
-  padding: 1px;
+  padding: 2px;
   border-radius: 50%;
 }
 
@@ -91,7 +96,26 @@ h2 {
   margin: 10px 0;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 10px;
-  grid-auto-rows: minmax(50px, auto);
+  grid-gap: 20px; /* Adjusted gap to fit the layout better */
+  grid-auto-rows: minmax(45px, auto);
+  padding: 20px;
+  width: 230px;
+  height: 110px;
+}
+
+button {
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
   padding: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e0e0e0;
+}
+
+button:active {
+  background-color: #d0d0d0;
 }
